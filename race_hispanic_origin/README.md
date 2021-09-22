@@ -1,5 +1,6 @@
 # Hispanic or Latino, and not Hispanic or Latino by Race
 Decennial Census, TableID: P2
+
 Geography: County
 
 ## Analysis
