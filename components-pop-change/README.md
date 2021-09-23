@@ -1,4 +1,5 @@
 # Components of Resident Population Change, 2010 - 2020
+The purpose of this project is to clean U.S. Census data and export csv files containing subsets of the data to be used for further analysis.
 
 ## Analysis
 ### 1 - population_change_2010_2020
