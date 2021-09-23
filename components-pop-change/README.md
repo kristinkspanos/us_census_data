@@ -8,7 +8,7 @@ The purpose of this project is to clean U.S. Census data and export csv files co
 * Exports df that contains all data from **cbsa-est2020-alldata.csv**, plus calculations of cumulative population change for each component, as **popchange_10_20_cumulative.csv**
 
 ### 2 - migration_cbsa_data_extract
-*Filters **population_change_2010_2020** rows to show only CBSA-level data; filters **population_change_2010_2020** columns to show relevant columns for analyzing cumulative population change between 2010 - 2020
+*Filters **population_change_2010_2020** rows to show only CBSA-level data; filters **population_change_2010_2020** columns to show relevant columns for analyzing cumulative population change between 2010 - 2020*
 * Inspects and cleans **popchange_10_20_cumulative.csv** 
   * drops identifer columns that are unnesecary for this analysis
 * filters popchange_cumulative by geographic type to only show Metropolitan Statistical Areas and Micropolitan Statistical Areas
@@ -18,7 +18,7 @@ The purpose of this project is to clean U.S. Census data and export csv files co
 * exports extract as **popchange_10_20_cbsa_slice.csv**
 
 ### 3 - migration_county_data_extract
-*Filters **population_change_2010_2020** rows to show only county-level data; filters **population_change_2010_2020** columns to show relevant columns for analyzing cumulative population change between 2010 - 2020
+*Filters **population_change_2010_2020** rows to show only county-level data; filters **population_change_2010_2020** columns to show relevant columns for analyzing cumulative population change between 2010 - 2020*
 * Inspects and cleans **popchange_10_20_cumulative.csv**
    * drops identifer columns that are unnesecary for this analysis
 * filters popchange_cumulative by geographic type to only show counties or county equivalents
