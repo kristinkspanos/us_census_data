@@ -5,7 +5,7 @@ The purpose of this project is to clean U.S. Census data and export csv files co
 ### 1 - population_change_2010_2020
 * Inspects **cbsa-est2020-alldata.csv**
 * Calculates cumulative population change for each component from 2010 - 2020
-* Exports df (**popchange_10_20_cumulative.csv**) that contains all data from **cbsa-est2020-alldata.csv**, plus calculations of cumulative population change for each component
+* Exports df that contains all data from **cbsa-est2020-alldata.csv**, plus calculations of cumulative population change for each component, as **popchange_10_20_cumulative.csv**
 
 ### 2 - migration_cbsa_data_extract
 * Inspects and cleans **popchange_10_20_cumulative.csv** 
